@@ -15,7 +15,7 @@ print("\nStopwords: ", stopword)
 #3. stemming
 user = input("Enter a  word for Stemming and lemmatizing: ")
 stemmer = PorterStemmer()
-print("\nStemming: ", stemmer.stem(word=w, to_lowercase=True))
+print("\nStemming: ", stemmer.stem(word=user, to_lowercase=True))
 
 #4. Lemmatization
 lemmatizer = WordNetLemmatizer()
